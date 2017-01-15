@@ -6,11 +6,10 @@
 #   International Journal of Epidemiology - 2013
 #   http://www.ag-myresearch.com/2013_bhaskaran_ije.html
 #
-# Update: 05 January 2017
-# For any problem with this code, please contact antonio.gasparrini@lshtm.ac.uk
-# Please refer to the original code for any copyright issue
-#
-# See https://github.com/gasparrini/2013_bhaskaran_IJE_Codedata for future updates
+# Update: 15 January 2017
+# * an updated version of this code, compatible with future versions of the
+#   software, is available at:
+#   https://github.com/gasparrini/2013_bhaskaran_IJE_Codedata
 ################################################################################
 #
 # LOAD THE DATA INTO THE SESSION
