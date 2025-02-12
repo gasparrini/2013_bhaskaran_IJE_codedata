@@ -1,5 +1,5 @@
 
-### Updated R and Stata code and data from Bhaskaran IJE 2013
+### A tutorial on time series regression in environmental epidemiology 
 
 --------------------------------------------------------------------------------
 

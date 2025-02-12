@@ -42,7 +42,7 @@ abline(v=data$date[grep("-01-01",data$date)],col=grey(0.6),lty=2)
 
 # THE SAME FOR OZONE LEVELS
 plot(data$date,data$ozone,pch=".",main="Ozone levels over time",
-     ylab="Daily mean ozone level (ug/m3)",xlab="Date")
+  ylab="Daily mean ozone level (ug/m3)",xlab="Date")
 abline(v=data$date[grep("-01-01",data$date)],col=grey(0.6),lty=2)
 par(oldpar)
 layout(1)
@@ -153,9 +153,9 @@ pred3 <- predict(model3,type="response")
 #############
 
 plot(data$date,data$numdeaths,ylim=c(100,300),pch=19,cex=0.2,col=grey(0.6),
-     main="Flexible cubic spline model",ylab="Daily number of deaths",
-     xlab="Date")
-lines(data$date,pred3,lwd=2)
+  main="Flexible cubic spline model",ylab="Daily number of deaths",
+  xlab="Date")
+lines(data$date,pred3,lwd=2,col=2)
 
 #####################################
 # PLOT RESPONSE RESIDUALS OVER TIME
